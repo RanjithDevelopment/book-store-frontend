@@ -1,0 +1,35 @@
+.register{
+  height: 100vh;
+  width: 100%;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+    
+  }
+  .container{
+    margin-top: 30px;
+    background-color: rgba(211, 204, 204, 0.904);
+    width: 70%;
+    height: fit-content;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.bg{
+ 
+  height: 100%;
+  background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-the-background-photography-of-the-empty-library-bookstore-indoors-picture-image_1474812.jpg");
+  opacity:"0.5";
+
+}
+  
