@@ -3,7 +3,7 @@ import "../Css/LoginStyles.css";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import jwt_decode from "jwt-decode";
-import Homepage from "./Homepage";
+
 const Login = ({ login }) => {
   const navigate = useNavigate();
   let loginvalues = {
@@ -51,7 +51,7 @@ existuser.role==="Admin" ? navigate('/Header' ): navigate('/userview')
 };
   return (
     <>
-<Homepage/>
+
       <div className="page">
 
         <div className="cover" >
