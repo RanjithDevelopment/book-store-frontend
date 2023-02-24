@@ -24,8 +24,7 @@ ul {
     display: flex;
    
     justify-content: center;
-    /* align-items: flex-start;
-    align-content: flex-start; */
+    
   }
   .card > img {
     width: 100%;

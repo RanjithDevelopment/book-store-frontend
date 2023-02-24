@@ -63,7 +63,7 @@ password:formdata.password,
 confrimpassword:formdata.confirmpassword,
 mobilenumber:formdata.mobilenumber,
 role:formdata.role
-}).then(()=>history('/Homepage'))
+}).then(()=>history('/login'))
 setformdata(formvalues);
   };
   return (

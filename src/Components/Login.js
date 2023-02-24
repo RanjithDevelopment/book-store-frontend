@@ -42,7 +42,7 @@ localStorage.setItem("token",response.data);
 
 const token = localStorage.getItem("token");
 const existuser = jwt_decode(token);
-existuser.role==="Admin" ? navigate('/Header' ): navigate('/userview')
+ existuser? navigate('/Header' ): navigate('/')
 }
 
 
